@@ -3,19 +3,29 @@
     margin: 0;
     padding: 0;
 }
+body {
+    height: 100vh;
+}
 .sponsor {
     display: flex;
     border: 25px solid yellow;
 }
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 .bigimage {
     display: flex;
-    border: 150px solid lightblue;
+    /* justify-content: flex-end; */
+    border: 1px solid lightblue;
+    height: 250px;
 }
 .minitext {
-    display: flex;
+    /* display: flex; */
     /* align-items: flex-start; */
     border: 2px solid black;
-    width: 150px;
+    width: 100%;
 }
 .threeimages {
     display: flex;
