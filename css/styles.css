@@ -8,7 +8,8 @@ body {
 }
 .sponsor {
     display: flex;
-    border: 25px solid yellow;
+    background-color: yellow;
+    height: 100px;
 }
 .main-container {
     display: flex;
@@ -17,15 +18,15 @@ body {
 }
 .bigimage {
     display: flex;
-    /* justify-content: flex-end; */
+    background: url(https://media.istockphoto.com/photos/young-woman-runner-tying-her-shoes-preparing-for-a-jog-outside-at-picture-id1298108434?b=1&k=20&m=1298108434&s=170667a&w=0&h=6i76GZiEXBkow7bj3827YQwmLn-a1a7XXyogQHqq2jE=);
+    background-size: cover;
+    /* justify-content: center; */
     border: 1px solid lightblue;
     height: 250px;
 }
-.minitext {
-    /* display: flex; */
-    /* align-items: flex-start; */
-    border: 2px solid black;
-    width: 100%;
+h1 {
+  margin: 15px;
+  background-color: white;
 }
 .threeimages {
     display: flex;
