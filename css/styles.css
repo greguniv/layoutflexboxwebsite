@@ -31,6 +31,17 @@ h5 {
 h6 {
     display: flex;
 }
+.search {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
 /* ===== THIS CSS IS FOR THE BIG IMAGE FIRST ===== */
 .bigimage {
     display: flex;
