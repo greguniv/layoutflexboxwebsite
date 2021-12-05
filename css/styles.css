@@ -12,25 +12,26 @@ body {
     display: flex;
     flex-direction: column;
 }
+/* ====THIS CSS IS FOR JUST THE SPONSOR AT THE TOP ====== */
 #perscholas-logo {
     position: relative;
-    height: 85%;
+    max-height: 100%;
+    max-width: 85px;
 }
 .sponsor {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: yellow;
     height: 100px;
 }
 h5 {
     display: flex;
-    align-items: center;
-    position: sticky;
 }
 h6 {
     display: flex;
-    align-items: center;
-    float: none;
 }
+/* ===== THIS CSS IS FOR THE BIG IMAGE FIRST ===== */
 .bigimage {
     display: flex;
     background: url(https://media.istockphoto.com/photos/running-shoes-picture-id1249496770?b=1&k=20&m=1249496770&s=170667a&w=0&h=_SUv4odBqZIzcXvdK9rqhPBIenbyBspPFiQOSDRi-RI=);
@@ -95,13 +96,18 @@ a {
     align-items: center;
 }
 #image5 {
+    display: flex;
     background-image: url(https://images.unsplash.com/photo-1514989940723-e8e51635b782?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHNob2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
     height: 50%;
+    justify-content: center;
+    align-items: center;
+    color: red;
 }
 #image6 {
     background-image: url(https://images.unsplash.com/photo-1531310197839-ccf54634509e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHNob2VzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
     background-size: cover;
+    min-width: 237px;
     height: 50%;
 }   
 #image7 {
@@ -168,18 +174,26 @@ a {
     background-color: magenta;
     display: flex;
     flex-direction: row;
+    font-size: 150%;
 }
 #contact-name {
     background-color: darkorchid;
+    width: 25%;
 }
 #contact-info {
     background-color: darkred;
+    width: 25%;
+}
+li {
+    list-style: none;
 }
 #contact-store {
     background-color: green;
+    width: 25%;
 }
 #contact-social {
     background-color: hotpink;
+    width: 25%;
 }
 /*=====THIS IS THE CSS FOR THE FOOTER (outside of main container)====== */
 footer {
